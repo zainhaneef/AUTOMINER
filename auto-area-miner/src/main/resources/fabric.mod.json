@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "areaminer",
+  "version": "${version}",
+  "name": "Auto Area Miner",
+  "description": "Quarry planner and guidance overlay with configurable multi-block pickaxe profiles. Manual-confirmation mode: the player moves and mines.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.areaminer.AreaMinerClient" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
